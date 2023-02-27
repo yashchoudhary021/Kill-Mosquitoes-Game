@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosquito Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 style="float: left" id="date">Date: </h2>
+    <h2 style="float: right;" id="timer"></h2>
+    <h1 style="margin: 0px 0 50px 500px">Mosquito Game</h1>
+    <h3>Game Instructions: - Hit on moving Mosquito and incress score.</h3>
+    <span> Set Game Play Time: </span><input type="number" id="inputNumber" placeholder="Minutes...">
+    <button id="enter" onclick="Enter()">Enter</button>
+    <h1 style="color: black" id="score"></h1>
+    <h1 id="over"></h1>
+    <button class="ddk" onclick="Start()">Start</button>
+    <button class="ddk" id="stop" onclick="Stop()">Stop</button>
+    <div id="ground" onclick="mosquito()"><img id="image"
+            src="https://www.orkin.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7bnun0x6hsse%2F3DK17N9XkrDXCefWQ7HN9T%2Ff2e7d1360c0b5b891fbdc0d42a0c0ea6%2FMosquito_Khaki_1280x720.jpg&w=1080&q=75"
+            alt=""></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
